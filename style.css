@@ -6,10 +6,51 @@
     extralightgreen #d4e9e2
     darkgreen #1e3932
 */
+
 * {
   color: #27251F;
   box-sizing: border-box;
   font-family: sans-serif;
 }
 
-/* your code */
+nav > h1{
+  color: #f2f0eb;
+  font-size:300%;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 25%;
+}
+
+body, .city-list{
+  background-color: #1e3932;
+}
+
+header{
+  display: flex;
+  justify-content: left;
+  margin-left: 20%;
+  margin-right: 25%;
+  font-size: x-large;
+  background-color: gray;
+  padding: 1.5%;
+}
+
+.city-list{
+  border: 2px solid #f2f0eb;
+  margin-left: 20%;
+  margin-right: 25%;
+  margin-top: 2%;
+  padding: 1.5%;
+}
+
+.city-list > div{
+  background-color:#00754a;
+  margin: 1%;
+  padding: 1.5%;
+  text-align: right;
+}
